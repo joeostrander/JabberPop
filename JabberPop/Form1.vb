@@ -392,6 +392,7 @@ Public Class Form1
                         Dim wName As String = GetWindowTextByHandle(m.LParam)
                         Dim action = CType(m.WParam.ToInt32(), ShellEvents)
                         If hWnd_Jabber = m.LParam Then
+                            Console.WriteLine("ALERT")
 
                             'OnWindowEvent(String.Format("{0} - {1}: {2}", action, m.LParam, wName))
                             'Debug.WriteLine(String.Format("{0} - {1}: {2}", action, m.LParam, wName))
@@ -399,6 +400,7 @@ Public Class Form1
                             If ts.TotalSeconds >= 5 Then
                                 shakeMe(hWnd_Jabber)
                                 LastShake = Now
+                                RecordAlertTime()
                             End If
 
                         End If
@@ -408,6 +410,20 @@ Public Class Form1
         End If
 
         MyBase.WndProc(m)
+    End Sub
+
+    Private Sub RecordAlertTime()
+
+        Try
+            Dim appRegKey As RegistryKey
+            appRegKey = Registry.CurrentUser.OpenSubKey("Software\" & Application.ProductName, True)
+
+            'Startup 
+            appRegKey.SetValue("LastAlert", Now.ToString(), RegistryValueKind.String)
+        Catch ex As Exception
+            Console.WriteLine(ex.Message)
+        End Try
+
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
@@ -421,6 +437,7 @@ Public Class Form1
 
     Public Sub shakeMe(ByRef hWnd As IntPtr)
         If EnabledToolStripMenuItem.CheckState <> CheckState.Checked Then Exit Sub
+
         ShowWindow(hWnd, ShowWindowCommands.Normal)
 
         Dim rect As New RECT
