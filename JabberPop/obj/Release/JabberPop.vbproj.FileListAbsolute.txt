@@ -1,0 +1,24 @@
+c:\users\administrator\documents\visual studio 2013\Projects\JabberPop\JabberPop\bin\Release\JabberPop.exe.config
+c:\users\administrator\documents\visual studio 2013\Projects\JabberPop\JabberPop\bin\Release\JabberPop.exe
+c:\users\administrator\documents\visual studio 2013\Projects\JabberPop\JabberPop\bin\Release\JabberPop.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\JabberPop\JabberPop\bin\Release\JabberPop.xml
+c:\users\administrator\documents\visual studio 2013\Projects\JabberPop\JabberPop\obj\Release\JabberPop.Form1.resources
+c:\users\administrator\documents\visual studio 2013\Projects\JabberPop\JabberPop\obj\Release\JabberPop.Resources.resources
+c:\users\administrator\documents\visual studio 2013\Projects\JabberPop\JabberPop\obj\Release\JabberPop.vbproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2013\Projects\JabberPop\JabberPop\obj\Release\JabberPop.exe
+c:\users\administrator\documents\visual studio 2013\Projects\JabberPop\JabberPop\obj\Release\JabberPop.xml
+c:\users\administrator\documents\visual studio 2013\Projects\JabberPop\JabberPop\obj\Release\JabberPop.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\JabberPop\JabberPop\obj\Release\JabberPop.AboutBox1.resources
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\bin\Release\JabberPop.exe.config
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\obj\Release\JabberPop.exe
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\obj\Release\JabberPop.xml
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\obj\Release\JabberPop.pdb
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\bin\Release\JabberPop.exe
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\bin\Release\JabberPop.pdb
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\bin\Release\JabberPop.xml
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\obj\Release\JabberPop.vbprojAssemblyReference.cache
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\obj\Release\JabberPop.AboutBox1.resources
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\obj\Release\JabberPop.Form1.resources
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\obj\Release\JabberPop.Resources.resources
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\obj\Release\JabberPop.vbproj.GenerateResource.cache
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\obj\Release\JabberPop.vbproj.CoreCompileInputs.cache

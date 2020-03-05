@@ -188,16 +188,19 @@ Public Class Form1
         If IsWindow(hWnd_Jabber) Then
             windowList.Add(hWnd_Jabber)
         Else
+            hWnd_Jabber = FindWindow("wcl_manager1", "Cisco Jabber")
+            If IsWindow(hWnd_Jabber) Then
+                windowList.Add(hWnd_Jabber)
+            Else
+                Try
+                    Dim del As MyDelegateCallBack
+                    del = New MyDelegateCallBack(AddressOf EnumWindowProc)
+                    EnumWindows(del, 0)
+                Catch ex As Exception
+                    Debug.WriteLine(ex.Message)
+                End Try
 
-            Try
-                Dim del As MyDelegateCallBack
-                del = New MyDelegateCallBack(AddressOf EnumWindowProc)
-                EnumWindows(del, 0)
-            Catch ex As Exception
-                Debug.WriteLine(ex.Message)
-            End Try
-
-
+            End If
         End If
 
         For Each hWnd As IntPtr In windowList
@@ -477,5 +480,14 @@ Public Class Form1
     Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem.Click
         'boolTrayExit = True
         Application.Exit()
+    End Sub
+
+    Private Sub TestToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TestToolStripMenuItem.Click
+        Dim hWnd_Jabber As IntPtr = GetJabberWindow()
+        If IsWindow(hWnd_Jabber) Then
+            shakeMe(hWnd_Jabber)
+        Else
+            MessageBox.Show("Could not get a handle for the Jabber window!", Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+        End If
     End Sub
 End Class

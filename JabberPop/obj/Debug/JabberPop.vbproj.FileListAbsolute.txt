@@ -1,0 +1,24 @@
+c:\users\administrator\documents\visual studio 2013\Projects\JabberPop\JabberPop\bin\Debug\JabberPop.exe.config
+c:\users\administrator\documents\visual studio 2013\Projects\JabberPop\JabberPop\obj\Debug\JabberPop.Form1.resources
+c:\users\administrator\documents\visual studio 2013\Projects\JabberPop\JabberPop\obj\Debug\JabberPop.Resources.resources
+c:\users\administrator\documents\visual studio 2013\Projects\JabberPop\JabberPop\obj\Debug\JabberPop.vbproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2013\Projects\JabberPop\JabberPop\bin\Debug\JabberPop.exe
+c:\users\administrator\documents\visual studio 2013\Projects\JabberPop\JabberPop\bin\Debug\JabberPop.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\JabberPop\JabberPop\bin\Debug\JabberPop.xml
+c:\users\administrator\documents\visual studio 2013\Projects\JabberPop\JabberPop\obj\Debug\JabberPop.exe
+c:\users\administrator\documents\visual studio 2013\Projects\JabberPop\JabberPop\obj\Debug\JabberPop.xml
+c:\users\administrator\documents\visual studio 2013\Projects\JabberPop\JabberPop\obj\Debug\JabberPop.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\JabberPop\JabberPop\obj\Debug\JabberPop.AboutBox1.resources
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\bin\Debug\JabberPop.exe.config
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\bin\Debug\JabberPop.exe
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\bin\Debug\JabberPop.pdb
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\bin\Debug\JabberPop.xml
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\obj\Debug\JabberPop.AboutBox1.resources
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\obj\Debug\JabberPop.Form1.resources
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\obj\Debug\JabberPop.Resources.resources
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\obj\Debug\JabberPop.vbproj.GenerateResource.cache
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\obj\Debug\JabberPop.vbproj.CoreCompileInputs.cache
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\obj\Debug\JabberPop.exe
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\obj\Debug\JabberPop.xml
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\obj\Debug\JabberPop.pdb
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\JabberPop\JabberPop\obj\Debug\JabberPop.vbprojAssemblyReference.cache

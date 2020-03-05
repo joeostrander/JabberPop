@@ -32,6 +32,7 @@ Partial Class Form1
         Me.RunAtStartupToolStripMenuItemTRAY = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TestToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContextMenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -57,11 +58,11 @@ Partial Class Form1
         '
         'ContextMenuStrip1
         '
-        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EnabledToolStripMenuItem, Me.RunAtStartupToolStripMenuItemTRAY, Me.AboutToolStripMenuItem, Me.ExitToolStripMenuItem})
+        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EnabledToolStripMenuItem, Me.RunAtStartupToolStripMenuItemTRAY, Me.AboutToolStripMenuItem, Me.TestToolStripMenuItem, Me.ExitToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
         Me.ContextMenuStrip1.ShowCheckMargin = True
         Me.ContextMenuStrip1.ShowImageMargin = False
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(150, 92)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(181, 136)
         '
         'EnabledToolStripMenuItem
         '
@@ -69,27 +70,33 @@ Partial Class Form1
         Me.EnabledToolStripMenuItem.CheckOnClick = True
         Me.EnabledToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked
         Me.EnabledToolStripMenuItem.Name = "EnabledToolStripMenuItem"
-        Me.EnabledToolStripMenuItem.Size = New System.Drawing.Size(149, 22)
+        Me.EnabledToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.EnabledToolStripMenuItem.Text = "&Enabled"
         '
         'RunAtStartupToolStripMenuItemTRAY
         '
         Me.RunAtStartupToolStripMenuItemTRAY.CheckOnClick = True
         Me.RunAtStartupToolStripMenuItemTRAY.Name = "RunAtStartupToolStripMenuItemTRAY"
-        Me.RunAtStartupToolStripMenuItemTRAY.Size = New System.Drawing.Size(149, 22)
+        Me.RunAtStartupToolStripMenuItemTRAY.Size = New System.Drawing.Size(180, 22)
         Me.RunAtStartupToolStripMenuItemTRAY.Text = "&Run at Startup"
         '
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(149, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AboutToolStripMenuItem.Text = "&About"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(149, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ExitToolStripMenuItem.Text = "E&xit"
+        '
+        'TestToolStripMenuItem
+        '
+        Me.TestToolStripMenuItem.Name = "TestToolStripMenuItem"
+        Me.TestToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TestToolStripMenuItem.Text = "&Test!"
         '
         'Form1
         '
@@ -114,5 +121,5 @@ Partial Class Form1
     Friend WithEvents ExitToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents RunAtStartupToolStripMenuItemTRAY As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AboutToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-
+    Friend WithEvents TestToolStripMenuItem As ToolStripMenuItem
 End Class
